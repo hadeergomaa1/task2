@@ -1,0 +1,85 @@
+
+body {
+  background-color: #e6f7f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.building {
+  width: 200px;
+  background-color: #fff9e3;
+  border: 3px solid #2c3e50;
+  position: relative;
+  border-radius: 6px;
+}
+
+.roof {
+  height: 20px;
+  background-color: #34495e;
+  position: absolute;
+  top: -20px;
+  left: -6px;
+  width: calc(100% + 12px);
+  border: 3px solid #2c3e50;
+  border-radius: 4px;
+}
+
+.windows {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.window {
+  background-color: #aed6f1;
+  border: 2px solid #2c3e50;
+  border-radius: 4px;
+}
+
+.entrance {
+  background-color: #2c3e50;
+  height: 18px;
+  border: 3px solid #2c3e50;
+  margin: 0 20px;
+  border-radius: 4px;
+}
+
+.door-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff9e3;
+  padding: 12px 0;
+  gap: 8px;
+}
+
+.pillar {
+  background-color: #bdc3c7;
+  width: 12px;
+  height: 70px;
+  border: 3px solid #2c3e50;
+  border-radius: 3px;
+}
+
+.door {
+  background-color: #2980b9;
+  width: 55px;
+  height: 70px;
+  border: 3px solid #2c3e50;
+  border-radius: 5px;
+}
+
+.base {
+  height: 20px;
+  background-color: #34495e;
+  border: 3px solid #2c3e50;
+  position: absolute;
+  bottom: -20px;
+  left: -6px;
+  width: calc(100% + 12px);
+  border-radius: 4px;
+}
